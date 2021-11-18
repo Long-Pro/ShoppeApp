@@ -51,14 +51,6 @@ const styles=StyleSheet.create({
     shadowOpacity:0.3,
     shadowRadius:10,
     shadowOffset:{width:0,height:0},
-
-    // shadowColor: "#000",
-    // shadowOffset: {
-    //   width: 0,
-    //   height: 2,
-    // },
-    // shadowOpacity: 0.25,
-    // shadowRadius: 3.84,
     elevation: 5,
 
     padding:16,
@@ -68,6 +60,9 @@ const styles=StyleSheet.create({
     borderColor:'#000',
     //borderWidth:1
     //backgroundColor:'blue'
+
+    marginLeft:16,
+    marginRight:16,
   },
   image:{
     width:64,
