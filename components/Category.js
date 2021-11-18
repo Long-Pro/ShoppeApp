@@ -1,18 +1,25 @@
 import React from "react";
-import { View, Text,Image,StyleSheet } from "react-native";
+import { View, Text,Image,StyleSheet,TouchableOpacity,Alert} from "react-native";
 export default function Category({category}){
   return (
-    <View style={styles.container}>
-      <Text 
-        style={styles.title}
-      > 
-        {category.name}
-      </Text>
-      <Image 
-        source={category.imageLink}
-        style={styles.image}
-      />
-    </View>
+    <TouchableOpacity 
+      onPress={()=>{
+        Alert.alert('Click!')
+      }}
+      activeOpacity={0.5}
+    >
+      <View style={styles.container}>
+        <Text 
+          style={styles.title}
+        > 
+          {category.name}
+        </Text>
+        <Image 
+          source={category.imageLink}
+          style={styles.image}
+        />
+      </View>
+    </TouchableOpacity>
   )
 }
 const styles=StyleSheet.create({
