@@ -1,11 +1,9 @@
 import React from "react";
 import { View, Text,Image,StyleSheet,TouchableOpacity,Alert} from "react-native";
-export default function Category({category}){
+export default function Category({category,onPress}){
   return (
     <TouchableOpacity 
-      onPress={()=>{
-        Alert.alert('Click!')
-      }}
+      onPress={onPress}
       activeOpacity={0.5}
     >
       <View style={styles.container}>
