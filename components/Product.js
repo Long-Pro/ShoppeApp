@@ -1,10 +1,13 @@
 import React from "react";
 import { View, Text,Image,StyleSheet,TouchableOpacity,Alert,Dimensions} from "react-native";
+
 export default function Product({product,onAddToCart}){
   return (
     <View style={styles.container}>
       <Image
-        source={product.imageLink}
+        source={{
+          uri: product.imageLink
+        }}
         style={styles.image}
       />
       <View>
@@ -26,6 +29,7 @@ const styles=StyleSheet.create({
     borderColor:'#000',
     borderWidth:1,
     padding:8,
+    backgroundColor:'#fff'
   },
   image:{
     width:64,

@@ -1,0 +1,19 @@
+
+{
+  "product":[
+    { "id":1,"category":1, "name":"product1","price":100,"imageLink": "https://loremflickr.com/64/64" },
+    { "id":2,"category":1, "name":"product2","price":200,"imageLink": "https://loremflickr.com/64/64" },
+    { "id":3,"category":2, "name":"product3","price":3000000,"imageLink": "https://loremflickr.com/64/64" }
+  ],
+  "categories":[
+    { "id":1, "name":"clothes","imageLink":"https://picsum.photos/64/64"},
+    { "id":2, "name":"hat","imageLink":"https://picsum.photos/64/64"},
+    { "id":3, "name":"laptop","imageLink":"https://picsum.photos/64/64"},
+    { "id":4, "name":"pc","imageLink":"https://picsum.photos/64/64"},
+    { "id":5, "name":"phone","imageLink":"https://picsum.photos/64/64"},
+    { "id":6, "name":"shoes","imageLink":"https://picsum.photos/64/64"},
+    { "id":7, "name":"sport","imageLink":"https://picsum.photos/64/64"},
+    { "id":8, "name":"watch","imageLink":"https://picsum.photos/64/64"}
+  ]
+
+}

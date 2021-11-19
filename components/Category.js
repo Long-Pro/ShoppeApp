@@ -13,7 +13,9 @@ export default function Category({category,onPress}){
           {category.name}
         </Text>
         <Image 
-          source={category.imageLink}
+          source={{
+            uri: category.imageLink
+          }}
           style={styles.image}
         />
       </View>

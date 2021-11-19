@@ -1,0 +1,1 @@
+export const linkAPI='https://b70a-171-225-215-25.ngrok.io'
