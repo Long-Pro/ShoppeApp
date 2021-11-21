@@ -16,7 +16,7 @@ const initState=[
 export default function Categories({ navigation }) {
   const [categories,setCategories]=useState([])
   useEffect(()=>{
-    axios.get(`${linkAPI}/categories`)
+    axios.get(`/categories`)
       .then(res=>{
         console.log(res.data)
         setCategories(res.data)

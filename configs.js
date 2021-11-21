@@ -1,1 +1,1 @@
-export const linkAPI='https://b70a-171-225-215-25.ngrok.io'
+export const linkAPI='https://1530-2402-800-6238-71e8-8840-8047-4e78-78ab.ngrok.io'

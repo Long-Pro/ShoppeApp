@@ -11,7 +11,7 @@ const initState=[
 export default function Category({route}) {
   const [products,setproducts]=useState([])
   useEffect(()=>{
-    axios.get(`${linkAPI}/product?category=${route.params.id}`)
+    axios.get(`/product?category=${route.params.id}`)
       .then(res=>{
         console.log(res.data)
         setproducts(res.data)
